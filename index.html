@@ -17,8 +17,8 @@
 </head>
 
 <body id="bod">
-    <!-- <embed src="html/shengri.mp3" hidden="true" autostart="true" loop="true" id="myaudio"> -->
-        <audio id="music" src="html/shengri.mp3" autoplay="autoplay" loop="loop"></audio> 
+    <embed src="html/shengri.mp3" hidden="true" autostart="true" loop="true" id="myaudio">
+        <!-- <audio id="music" src="html/shengri.mp3" autoplay="autoplay" loop="loop"></audio>  -->
 
     <div class="logo">
         <img src="images/logo.png" />
@@ -38,7 +38,6 @@
             </p>
         </form>
     </div>
-<button id="add">播放/暂停</button>
 
 </body>
 <script src="js/jquery-1.2.6.min.js"></script>
@@ -54,14 +53,14 @@ $("#Login").click(function(){
     }
 })
 
-$("#add").click(function(){ 
-    var music = document.getElementById("myaudio"); 
-    if(music.paused){ 
-        music.play(); 
-    }else{ 
-        music.pause(); 
-    } 
-});
+// $("#add").click(function(){ 
+//     var music = document.getElementById("myaudio"); 
+//     if(music.paused){ 
+//         music.play(); 
+//     }else{ 
+//         music.pause(); 
+//     } 
+// });
 
 </script>
 
